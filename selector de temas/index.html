@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Temas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selector de Temas</h1>
+        
+        <!-- Controles -->
+        <div class="controls">
+            <label>Nombre:</label>
+            <input type="text" id="nombreInput" placeholder="Tu nombre">
+            
+            <div class="temas ">
+                <button class="tema-btn" data-tema="claro">Claro</button>
+                <button class="tema-btn" data-tema="oscuro">Oscuro</button>
+                <button class="tema-btn" data-tema="colorido">Colorido</button>
+            </div>
+        </div>
+        
+        <!-- Tarjeta de Perfil -->
+        <div class="tarjeta" id="tarjeta">
+            <h2 id="nombre">Tu Nombre</h2>
+            <p>Este es tu perfil personalizado</p>
+        </div>
+        
+        <!-- Botón Resetear -->
+        <div class="actions">
+            <button id="reset">Resetear</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
